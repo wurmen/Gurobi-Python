@@ -12,3 +12,8 @@
 |----|----|----|
 |2017|吳承璊|P96064079@mail.ncku.edu.tw|
 
+----------------------------------------
+### ￡環境建置
+|更新時間|文章|
+|-----|-----|
+|2017-09-27|[安裝教學](https://github.com/wurmen/Gurobi-Python/blob/master/Installation/%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8.md)|
