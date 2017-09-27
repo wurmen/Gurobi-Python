@@ -5,7 +5,7 @@
 
 ## (二)Python+Gurobi架構
 
- - 在python介面中，數學式子的寫法相似於原本的式子
+### - 在python介面中，數學式子的寫法相似於原本的式子
  
 ![](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%20%E6%9E%B6%E6%A7%8B.png)
  
