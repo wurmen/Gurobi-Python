@@ -12,7 +12,7 @@
 
 ### ● 建模時常用的for迴圈及if條件句
  Python中宣告for迴圈及if條件式後，記得用**冒號':'** 來結束聲明，接著在下一行打上要對for迴圈或if條件式做什麼事情，在此要特別注意的是python是透過**縮排**來辨別不同的程式區塊，所以當你要打包含在for迴圈及if條件句下的程式碼時，要記得按**tab鍵**來做區隔，這樣程式才知道他們是包含在for迴圈跟if條件句之下的程式碼。
--for迴圈
+<br>-for迴圈
 ```python
 for i in <some list>:
  <do something for each i here>
@@ -34,4 +34,4 @@ for i in I:
 ## (三)常用的三大函數
 在建立一個數學模式時，我們必須加入我們的決策變數、目標函式及限制式，以下是在設定這些變數及式子常用的三大設定函數的詳細內容
 <br>p.s.在Gurobi中設定目標函式或限制式還有其他不一樣的加入方式，在此只介紹這三個函數的應用，若想要有更進一步的了解可至Gurboi網站內的[Python](http://www.gurobi.com/documentation/7.5/refman/py_python_api_overview.html)專區查詢
-<br>若想了解其他函數的詳細資訊可點擊[這裡](http://www.gurobi.com/documentation/7.5/refman/py_python_api_details.html)
+<br>    若想了解其他函數的詳細資訊可點擊[這裡](http://www.gurobi.com/documentation/7.5/refman/py_python_api_details.html)
