@@ -27,7 +27,7 @@ if <condition>:
 
 ### ● quicksum()相當於python的sum()函數及數學符號 ∑
 Ex:
-<br> <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/quicksum_example.png" width="650">
+<br> <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/quicksum_example.png" width="250">
 <br>上述限制式在Python+Gurobi中表示為:
 ```python
 for i in I:
@@ -38,11 +38,12 @@ for i in I:
 在建立一個數學模式時，我們必須加入我們的決策變數、目標函式及限制式，以下是在設定這些變數及式子常用的三大函數的詳細內容介紹
 <br>Ps.在Gurobi中設定目標函式及限制式還有其他不一樣的方式，在此只介紹這三個函數的應用，若想要有更進一步的了解可至Gurboi網站內的[Python](http://www.gurobi.com/documentation/7.5/refman/py_python_api_overview.html)專區查詢，若想了解其他函數的詳細資訊可點擊[這裡](http://www.gurobi.com/documentation/7.5/refman/py_python_api_details.html)
 ### ● 加入決策變數函數
-![](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.addvar.png)
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.addvar.png" width="700">
 ### ● 加入目標函式函數
-![](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.setobjective.png)
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.setobjective.png" width="700">
 ### ● 加入限制式函數
-![](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.addconstr.png)
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.addconstr.png" width="700">
+
 
 ### 2.Gurobi attributes
 在Guroib中，可以透過各種屬性來查詢或更改所建立數學模組的內容，以下為常用的幾個屬性:
