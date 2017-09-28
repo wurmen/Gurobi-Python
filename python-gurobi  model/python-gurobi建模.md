@@ -25,8 +25,8 @@ if <condition>:
 
 ### ● quicksum()相當於python的sum()函數及數學符號 ∑
 Ex:
-![](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/quicksum_example.png)
-上述式子在Python+Gurobi中表示為:
+<br>![](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/quicksum_example.png)
+<br>上述式子在Python+Gurobi中表示為:
 ```python
 for i in I:
  m.addConstr(quicksum(x[i,j] for j in J)<=5)
