@@ -26,8 +26,12 @@ if <condition>:
 ### ● quicksum()相當於python的sum()函數及數學符號 ∑
 Ex:
 <br>![](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/quicksum_example.png)
-<br>上述式子在Python+Gurobi中表示為:
+<br>上述限制式在Python+Gurobi中表示為:
 ```python
 for i in I:
  m.addConstr(quicksum(x[i,j] for j in J)<=5)
 ```
+## (三)常用的三大函數
+在建立一個數學模式時，我們必須加入我們的決策變數、目標函式及限制式，以下是在設定這些變數及式子常用的三大設定函數的詳細內容
+<br>p.s.在Gurobi中設定目標函式或限制式還有其他不一樣的加入方式，在此只介紹這三個函數的應用，若想要有更進一步的了解可至Gurboi網站內的[Python](http://www.gurobi.com/documentation/7.5/refman/py_python_api_overview.html)專區查詢
+<br>若想了解其他函數的詳細資訊可點擊[這裡](http://www.gurobi.com/documentation/7.5/refman/py_python_api_details.html)
