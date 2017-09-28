@@ -46,17 +46,23 @@ for i in I:
 在Guroib中，可以透過各種屬性來查詢或更改所建立數學模組的內容，以下為常用的幾個屬性:
 <br>Ps.更多屬性查詢，可點擊[這裡](https://www.gurobi.com/documentation/7.0/refman/attributes.html)
 ### ● Model attributes:
-<br>-**NumVars**:Number of variables
-<br>-**NumConstrs**:Number of linear constraints
-<br>-**ObjVal**:objective value for current solution
+|Attribute Name|Description|
+|-----|-----|
+|**NumVars**|Number of variables|
+|**NumConstrs**|Number of linear constraints|
+|**ObjVal**|objective value for current solution|
 
 ### ● Variable attributes:
-<br>-**LB**:Lower bound
-<br>-**Obj**:Linear objective coefficient
-<br>-**VarName**:Variable name
-<br>-**X**:Value in the current solution
+|Attribute Name|Description|
+|-----|-----|
+|**LB**|Lower bound|
+|**Obj**|Linear objective coefficient|
+|**VarName**|Variable name|
+|**X**|Value in the current solution|
 
 ### ● Linear constraint attributes:
-<br>-**ConstrName**:Constraint name
-<br>-**Pi**:Dual value (also known as the shadow price)
-<br>-**Slack**:Slack in the current solution
+|Attribute Name|Description|
+|-----|-----|
+|**ConstrName**|Constraint name|
+|**Pi**|Dual value (also known as the shadow price)|
+|**Slack**|Slack in the current solution|
