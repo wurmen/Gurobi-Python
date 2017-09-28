@@ -17,3 +17,8 @@
 |更新時間|文章|
 |-----|-----|
 |2017-09-27|[安裝教學](https://github.com/wurmen/Gurobi-Python/blob/master/Installation/%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8.md)|
+
+### ￡Python+Gurobi建模
+|更新時間|文章|
+|-----|-----|
+|2017-09-27|[Python+Gurobi建模](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/python-gurobi%E5%BB%BA%E6%A8%A1.md)|
