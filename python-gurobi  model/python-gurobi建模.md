@@ -43,6 +43,8 @@ for i in I:
 ![](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.addconstr.png)
 
 ### 2.Gurobi attributes
+在Guroib中，可以透過各種屬性來查詢或更改所建立數學模組的內容，以下為常用的幾個屬性:
+<br>Ps.更多屬性查詢，可點擊[這裡](https://www.gurobi.com/documentation/7.0/refman/attributes.html)
 ### ● Model attributes:
 <br>-**NumVars**:Number of variables
 <br>-**NumConstrs**:Number of linear constraints
@@ -54,3 +56,7 @@ for i in I:
 <br>-**VarName**:Variable name
 <br>-**X**:Value in the current solution
 
+### ● Linear constraint attributes:
+<br>-**ConstrName**:Constraint name
+<br>-**Pi**:Dual value (also known as the shadow price)
+<br>-**Slack**:Slack in the current solution
