@@ -23,4 +23,4 @@
 |-----|-----|
 |2017-09-27|[Python+Gurobi建模](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/python-gurobi%E5%BB%BA%E6%A8%A1.md)|
 
-[ch3](https://github.com/wurmen/Gurobi-Python/blob/master/ch3.html)
+
