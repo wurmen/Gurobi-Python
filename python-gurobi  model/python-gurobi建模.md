@@ -1,10 +1,7 @@
-# Python+Gurobi建模
+# Python+Gurobi基本架構
 -------------------
-## (一)Python+Gurobi建模流程
 
-<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1%E6%B5%81%E7%A8%8B.png" width="750">
-
-## (二)Python+Gurobi架構
+## (一)Python+Gurobi架構
 
 ### ● 在python介面中，數學式子的寫法相似於原本的式子，只是將式子都拆解開來
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/python%E6%95%B8%E5%AD%B8%E5%BC%8F%E5%AD%90.png" width="650">
@@ -33,7 +30,7 @@ Ex:
 for i in I:
  m.addConstr(quicksum(x[i,j] for j in J)<=5)
 ```
-## (三)常用的三大函數及屬性
+## (二)常用的三大函數及屬性
 ### 1.三大函數
 在建立一個數學模式時，我們必須加入我們的決策變數、目標函式及限制式，以下是在設定這些變數及式子常用的三大函數的詳細內容介紹
 <br>Ps.在Gurobi中設定目標函式及限制式還有其他不一樣的方式，在此只介紹這三個函數的應用，若想要有更進一步的了解可至Gurboi網站內的[Python](http://www.gurobi.com/documentation/7.5/refman/py_python_api_overview.html)專區查詢，若想了解其他函數的詳細資訊可點擊[這裡](http://www.gurobi.com/documentation/7.5/refman/py_python_api_details.html)
