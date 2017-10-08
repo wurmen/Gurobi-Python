@@ -27,4 +27,4 @@
 |更新時間|文章|
 |-----|-----|
 |2017-10-9|[Controlling Air Pollution type1](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Controlling%20Air%20Pollution_type1.md)|
-|2017-10-9|[Controlling Air Pollution type2](https://github.com/wurmen/Gurobi-Python/edit/master/python-gurobi%20%20model/Controlling%20Air%20Pollution_type2.md)|
+|2017-10-9|[Controlling Air Pollution type2](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Controlling%20Air%20Pollution_type2.md)|
