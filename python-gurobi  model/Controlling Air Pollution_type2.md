@@ -49,7 +49,7 @@ m.update()
 
 # Add objective and constraints
 
-<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Controlling%20Air%20Pollution%20example/Controlling%20Air%20Pollution2.png" width="700">
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Controlling%20Air%20Pollution%20example/Controlling%20Air%20Pollution2.png" width="500">
 
 
 ```python
