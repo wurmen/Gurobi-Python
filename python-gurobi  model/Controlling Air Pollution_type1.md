@@ -13,7 +13,7 @@ from gurobipy import*
 
 
 ```python
-m=Model("controlling air pullution")
+m=Model("controlling air pollution")
 ```
 
 # Add decision variable
