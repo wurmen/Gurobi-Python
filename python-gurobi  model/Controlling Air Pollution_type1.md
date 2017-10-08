@@ -1,5 +1,6 @@
 # Controlling Air Pollution example
-- 本範例為講義第三章p25.26題目
+- 本範例為講義第三章p25.26題目<br>
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Controlling%20Air%20Pollution%20example/Controlling%20Air%20Pollution1.png" width="400"><br>
 
 # Import gurobipy
 
