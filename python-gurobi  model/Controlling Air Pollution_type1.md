@@ -1,3 +1,5 @@
+# Controlling Air Pollution example
+- 本範例為講義第三章p25.26題目
 
 # Import gurobipy
 
