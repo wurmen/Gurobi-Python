@@ -25,21 +25,21 @@
 
 ### 2.Python+Gurobi建模
 
-# Import gurobipy
+## Import gurobipy
 
 
 ```python
 from gurobipy import* #導入Gurobi函式庫
 ```
 
-# Model
+## Model
 
 
 ```python
     m=Model('mip1') # 建立一個新的model，並傳至m
 ```
 
-# Add decision variable
+## Add decision variable
 
 
 ```python
@@ -48,14 +48,14 @@ from gurobipy import* #導入Gurobi函式庫
     z = m.addVar(vtype=GRB.BINARY, name="z")
 ```
 
-# Update
+## Update
 
 
 ```python
 m.update() #更新此model
 ```
 
-# Add objective and constraints
+## Add objective and constraints
 
 
 ```python
@@ -77,7 +77,7 @@ m.update() #更新此model
 
 
 
-# Result
+## Result
 
 
 ```python
