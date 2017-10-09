@@ -14,7 +14,7 @@ from gurobipy import*
 
 
 ```python
-m=Model("controlling air pullution_type2")
+m=Model("controlling air pollution_type2")
 ```
 
 # Add parameters
