@@ -27,7 +27,7 @@
 ### ￡講義範例
 |更新時間|文章|
 |-----|-----|
-|2017-10-8|[Prototype example_type1](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Prototype%20example_type1.md)| 
-|2017-10-8|[Prototype example_type2](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Prototype%20example_type2.md)|
+|2017-10-8|[Prototype example type1](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Prototype%20example_type1.md)| 
+|2017-10-8|[Prototype example type2](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Prototype%20example_type2.md)|
 |2017-10-8|[Controlling Air Pollution type1](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Controlling%20Air%20Pollution_type1.md)|
 |2017-10-8|[Controlling Air Pollution type2](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Controlling%20Air%20Pollution_type2.md)|
