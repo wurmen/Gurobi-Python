@@ -10,7 +10,7 @@
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%20%E6%9E%B6%E6%A7%8B.png" width="750">
 
 ### ● 建模時常用的for迴圈及if條件句
- Python中宣告for迴圈及if條件式後，記得用**冒號':'** 來結束聲明，接著在下一行打上要對for迴圈或if條件式做什麼事情，在此要特別注意的是python是透過**縮排**來辨別不同的程式區塊，所以當你要打包含在for迴圈及if條件句下的程式碼時，要記得按**tab鍵**來做區隔，這樣程式才知道他們是包含在for迴圈跟if條件句之下的程式碼。
+ Python中宣告for迴圈及if條件式後，記得用**冒號':'** 來結束聲明，接著在下一行打上要對for迴圈或if條件式做的事情，在此要特別注意的是python是透過**縮排**來辨別不同的程式區塊，因此在下一行開始前，要記得按**tab鍵**來做區隔，這樣程式才知道他們是包含在for迴圈跟if條件句之下的程式碼。
 <br>-**for迴圈**
 ```python
 for i in <some list>:
@@ -30,6 +30,8 @@ Ex:
 for i in I:
  m.addConstr(quicksum(x[i,j] for j in J)<=5)
 ```
+
+### ●
 ## (二)常用的三大函數及屬性
 ### 1.三大函數
 在建立一個數學模式時，我們必須加入我們的決策變數、目標函式及限制式，以下是在設定這些變數及式子常用的三大函數的詳細內容介紹
