@@ -13,21 +13,21 @@
 
 
 
-# Import gurobipy
+## Import gurobipy
 
 
 ```python
 from gurobipy import*
 ```
 
-# Model
+## Model
 
 
 ```python
     m=Model('Protorype example_type2')
 ```
 
-# Add parameters
+## Add parameters
 
 ```python
     I=2
@@ -37,7 +37,7 @@ from gurobipy import*
     a=[4,12,18]
 ```
 
-# Add decision variables
+## Add decision variables
 
 
 ```python
@@ -46,15 +46,15 @@ from gurobipy import*
         x[i]=m.addVar(lb=0,vtype=GRB.CONTINUOUS,name='x_%d'%i)
 ```
 
-# Update
+## Update
 
 
 ```python
     m.update()
 ```
 
-# Add objective and constraints
-<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example_type2_S.png" width="450">
+## Add objective and constraints
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example_type2_S.png" width="400">
 
 ```python
     m.setObjective(quicksum(v[i]*x[i] for i in range(I)),GRB.MAXIMIZE)
@@ -63,7 +63,7 @@ from gurobipy import*
         m.addConstr(quicksum(p[i][j]*x[i] for i in range(I))<=a[j],name='c0')
 ```
 
-# Result
+## Result
 
 
 ```python
