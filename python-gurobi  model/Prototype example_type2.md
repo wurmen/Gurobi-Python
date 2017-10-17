@@ -1,5 +1,17 @@
 
 # Prototype example
+### ● 題目<br>
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example%E9%A1%8C%E7%9B%AE.png" width="500">
+<br>
+
+### ● 數學式轉換<br>
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example_type2%E7%AC%A6%E8%99%9F%E8%A8%AD%E5%AE%9A.png" width="350">
+<br>
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example_type2_%E6%95%B8%E5%AD%B8%E5%BC%8F%E8%BD%89%E6%8F%9B.png" width="650">
+<br>
+
+
+
 
 # Import gurobipy
 
@@ -16,7 +28,6 @@ from gurobipy import*
 ```
 
 # Add parameters
-
 
 ```python
     I=2
@@ -43,7 +54,7 @@ from gurobipy import*
 ```
 
 # Add objective and constraints
-
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example_type2_S.png" width="450">
 
 ```python
     m.setObjective(quicksum(v[i]*x[i] for i in range(I)),GRB.MAXIMIZE)
