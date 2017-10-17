@@ -1,27 +1,40 @@
 
 # Prototype example
+### ● 題目<br>
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example%E9%A1%8C%E7%9B%AE.png" width="400">
+<br>
 
+### ● 數學式<br>
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example%20%E6%95%B8%E5%AD%B8%E5%BC%8F.png" width="200">
+<br>
+
+
+## Import gurobipy
 
 ```python
 from gurobipy import*
 ```
-
+## Model
 
 ```python
     m=Model('Protorype example_type1')
 ```
 
 
+## Add decision variables
 ```python
     x_1=m.addVar(lb=0,vtype=GRB.CONTINUOUS,name='x_1')
     x_2=m.addVar(lb=0,vtype=GRB.CONTINUOUS,name='x_2')
 ```
 
 
+## Update
+
 ```python
     m.update()
 ```
 
+## Add objective and constraints
 
 ```python
     m.setObjective(3*x_1+5*x_2,GRB.MAXIMIZE)
@@ -36,10 +49,7 @@ from gurobipy import*
 
 
 
-
-    <gurobi.Constr *Awaiting Model Update*>
-
-
+## Result
 
 
 ```python
