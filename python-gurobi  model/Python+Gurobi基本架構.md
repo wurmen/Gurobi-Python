@@ -1,11 +1,8 @@
-# Python+Gurobi基本架構
-
+# Python+Gurobi基本架構 
 [【回到首頁】](https://github.com/PO-LAB/Python-Gurobi)
 
--------------------
 
-## (一)Python+Gurobi架構
-
+## (一)Python+Gurobi架構 
 ### ● 在python介面中，數學式子的寫法相似於原本的式子，只是將式子都拆解開來
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/python%E6%95%B8%E5%AD%B8%E5%BC%8F%E5%AD%90.png" width="550">
 
