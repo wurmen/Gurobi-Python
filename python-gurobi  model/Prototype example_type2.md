@@ -1,5 +1,11 @@
 
 # Prototype example
+*POLab*
+<br>
+*2017/10/08*
+<br>
+[【回到首頁】](https://github.com/PO-LAB/Python-Gurobi)
+
 ### ● 題目<br>
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example%E9%A1%8C%E7%9B%AE.png" width="500">
 <br>
