@@ -38,6 +38,10 @@ for i in I:
 ```
 
 ### ● Python字符串格式化
+
+在建立數學模式的最後，通常需顯示最終求得之最佳解，例如:目標函數值、各決策變數值等...<br>
+此時，可藉由格式符來替我們列印各項數值及名稱，以下為幾個常用的格式符:
+
 |符號|說明|
 |-----|-----|
 |%s|字符串|
@@ -45,16 +49,22 @@ for i in I:
 |%f|格式化浮點數|
 |%e|指數，科學計數法|
 |%g|根據值的大小決定使用%f或%e|
+### ex.
+```python
+print('She is %s. She weights %gkg and is %dcm tall.'%('Rima',50.4,166))
+```
+
+    She is Rima. She weights 50.4kg and is 166cm tall.
 
 ## (二)常用的三大函數及屬性
 ### 1.三大函數
-在建立一個數學模式時，我們必須加入我們的決策變數、目標函式及限制式，以下是在設定這些變數及式子常用的三大函數的詳細內容介紹
-<br>Ps.在Gurobi中設定目標函式及限制式還有其他不一樣的方式，在此只介紹這三個函數的應用，若想要有更進一步的了解可至Gurboi網站內的[Python](http://www.gurobi.com/documentation/7.5/refman/py_python_api_overview.html)專區查詢，若想了解其他函數的詳細資訊可點擊[這裡](http://www.gurobi.com/documentation/7.5/refman/py_python_api_details.html)
-#### ● 加入決策變數函數
+在建立一個數學模式時，我們必須加入我們的決策變數、目標函數及限制式，以下是在設定這些變數及式子常用的三大函數的詳細內容介紹
+<br>Ps.在Gurobi中設定目標函數及限制式還有其他不一樣的方式，在此只介紹這三個函數的應用，若想要有更進一步的了解可至Gurboi網站內的[Python](http://www.gurobi.com/documentation/7.5/refman/py_python_api_overview.html)專區查詢，若想了解其他函數的詳細資訊可點擊[這裡](http://www.gurobi.com/documentation/7.5/refman/py_python_api_details.html)
+#### ● 決策變數函數
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.addvar.png" width="700"><br>
-#### ● 加入目標函式函數
+#### ● 目標函數
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.setobjective.png" width="700"><br>
-#### ● 加入限制式函數
+#### ● 限制式函數
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/m.addconstr.png" width="700">
 
 
