@@ -1,4 +1,9 @@
-# Python+Gurobi基本架構 
+# Python+Gurobi基本架構
+
+*POLab*
+<br>
+*2017/09/27*
+<br>
 [【回到首頁】](https://github.com/PO-LAB/Python-Gurobi)
 
 
