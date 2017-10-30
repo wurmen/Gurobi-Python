@@ -8,11 +8,11 @@
 
 
 ### ● 題目<br>
-<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example%E9%A1%8C%E7%9B%AE.png" width="500">
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Prototype%20example%20picture/Prototype%20example%E9%A1%8C%E7%9B%AE.png" width="400">
 <br>
 
 ### ● 主問題及對偶問題
-<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Dual%20example/convertPintoD.png" width="500">
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Dual%20example/convertPintoD.png" width="550">
 <br>
 
 # Import gurobipy
