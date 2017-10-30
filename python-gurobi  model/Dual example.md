@@ -99,7 +99,7 @@ from gurobipy import*
 
 
 ```python
-    #透過限制式中的屬性Pi取得對偶值
+    #透過限制式中的屬性pi取得對偶值
     for c in m.getConstrs():
         print 'The dual value of %s : %g'%(c.constrName,c.pi)
 ```
