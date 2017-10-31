@@ -25,7 +25,7 @@
 </div>
 
 <div align=center>
-<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E6%AF%8F%E5%B0%8F%E6%99%82%E6%9C%80%E5%B0%91%E6%89%80%E9%9C%80%E4%BA%BA%E6%95%B8.PNG" alt="GitHub" width="450" >
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E6%AF%8F%E5%B0%8F%E6%99%82%E6%9C%80%E5%B0%91%E6%89%80%E9%9C%80%E4%BA%BA%E6%95%B8.PNG" alt="GitHub" width="650" >
 
 圖二、每小時最少所需人數 
 </div>
