@@ -59,7 +59,7 @@ from gurobipy import* #導入Gurobi函式庫
 
 
 ```python
-m.update() #更新此model
+    m.update() #更新此model
 ```
 
 ## Add objective and constraints
