@@ -47,12 +47,16 @@ D:員工人數(d=1,...,|D|) <br>
 I:總時間(i,j,c=1,...,|I|)
 
 ### ● 參數設定
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E5%8F%83%E6%95%B8%E8%A8%AD%E5%AE%9A.PNG" alt="GitHub" width="350" >
 
 ### ● 決策變數
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E6%B1%BA%E7%AD%96%E8%AE%8A%E6%95%B8.PNG" width="450">
 
 ### ● 目標函數
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E7%9B%AE%E6%A8%99%E5%87%BD%E6%95%B8.PNG" width="300">
 
 ### ● 限制式
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E9%99%90%E5%88%B6%E5%BC%8F.PNG" width="400">
 
 ## (三) Python+Gurobi
 
