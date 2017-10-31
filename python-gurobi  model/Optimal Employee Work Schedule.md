@@ -59,7 +59,7 @@ I:總時間(i,j,c=1,...,|I|)
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E9%99%90%E5%88%B6%E5%BC%8F.PNG" width="400">
 
 ## (三) Python+Gurobi
-
+##### ※完整程式碼可點擊[這裡](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Optimal%20Employee%20Work%20Schedule.py)
 ## Import gurobipy
 
 
@@ -131,7 +131,6 @@ from gurobipy import*
 
 
 
-    <gurobi.Constr *Awaiting Model Update*>
 
 
 
@@ -140,7 +139,7 @@ from gurobipy import*
 
 ```python
     m.optimize()
-    m.write("nursing_type1-2.lp")
+    m.write("work_schedule.lp")
     
     print ("Optimal objective value is %g"%m.objVal)
     if m.status == GRB.Status.OPTIMAL:
@@ -229,3 +228,10 @@ from gurobipy import*
     The number of staff from 22 -23: 2
     The number of staff from 23 -24: 2
     
+
+## (四) 結果分析
+#### ● 每時段所需員工人數比較圖
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E6%AF%8F%E6%99%82%E6%AE%B5%E6%89%80%E9%9C%80%E5%93%A1%E5%B7%A5%E4%BA%BA%E6%95%B8%E6%AF%94%E8%BC%83%E5%9C%96.PNG" width="500">
+
+#### ● 員工班次排程圖
+<img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E5%93%A1%E5%B7%A5%E7%8F%AD%E6%AC%A1%E6%8E%92%E7%A8%8B%E5%9C%96.PNG" width="450">
