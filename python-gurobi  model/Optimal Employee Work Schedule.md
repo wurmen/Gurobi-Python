@@ -1,10 +1,9 @@
-
 # Generating an Optimal Employee Work Schedule Using Integer Linear Programming
 
 # (一) 問題描述
 
 ## 題目:
-  ### ● 利用整數線性規劃、最佳化員工工作班表。
+### ● 利用整數線性規劃、最佳化員工工作班表。
 
 ## 已知:
 ### 如圖一、二所示:
