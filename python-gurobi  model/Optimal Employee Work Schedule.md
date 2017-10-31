@@ -20,7 +20,7 @@
 
 <div align=center>
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E5%93%A1%E5%B7%A5%E8%B3%87%E8%A8%8A.PNG" alt="GitHub" width="450" >
-<div>
+</div>
 
 ### ● 目標:
 - 最小化每日需支付給員工的薪水。
