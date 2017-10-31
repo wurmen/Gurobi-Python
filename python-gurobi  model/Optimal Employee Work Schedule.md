@@ -4,23 +4,24 @@
 <br>
 *2017/09/27*
 <br>
-[【回到首頁】](https://github.com/PO-LAB/Python-Gurobi)
+[【回到首頁】](https://github.com/PO-LAB/Python-Gurobi) <br>
+##### ※參考資料: https://blogs.mathworks.com/loren/2016/01/06/generating-an-optimal-employee-work-schedule-using-integer-linear-programming/
 
 ## (一) 問題描述
 
-### 題目:
+### 1.題目:
   ### ● 利用整數線性規劃、最佳化員工工作班表。
 
-### 已知:
+### 2.已知:
 ### 如圖一、二所示:
 ### ● 所有員工可得的工作時間及每小時薪資。
 ### ● 每個員工每班最少所需工作時數及最多可工作時數。
 ### ● 每小時最低需求人數。
 
-### 目標:
+### 3.目標:
 ### ● 最小化每日需支付給員工的薪水。
 
-### 限制:
+### 4.限制:
 ### ● 需滿足每小時所需人數的最低需求。
 ### ● 每位員工每天只能工作一個班次
 ### ● 員工只能在他們可得的時間上班。
