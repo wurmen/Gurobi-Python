@@ -1,7 +1,12 @@
 
 # Generating an Optimal Employee Work Schedule Using Integer Linear Programming
+*POLab*
+<br>
+*2017/09/27*
+<br>
+[【回到首頁】](https://github.com/PO-LAB/Python-Gurobi)
 
-# (一) 問題描述
+## (一) 問題描述
 
 ## 題目:
   ### ● 利用整數線性規劃、最佳化員工工作班表。
@@ -21,7 +26,7 @@
 ### ● 員工只能在他們可得的時間上班。
 ### ● 如果該員工需上班，則他必須滿足他最少所需上班的時數且不得大於他最多能上班時數
 
-# (二) 數學模型
+## (二) 數學模型
 
 ## 符號設定
 ### D:員工人數(d=1,...,|D|)
