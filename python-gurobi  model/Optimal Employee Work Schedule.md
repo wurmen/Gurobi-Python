@@ -231,7 +231,9 @@ from gurobipy import*
 
 ## (四) 結果分析
 #### ● 每時段所需員工人數比較圖
+從下圖可看出每時段所需之員工人數皆滿足最低需求，且在任何時段皆沒有人力過多或人手不足的情況，這是由於目標函數是要最小化薪資成本，因此若有過多不必要的人力，則會增加所需支付的薪資，所以需盡可能的滿足最低人力需求，並避免多餘人力。<br>
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E6%AF%8F%E6%99%82%E6%AE%B5%E6%89%80%E9%9C%80%E5%93%A1%E5%B7%A5%E4%BA%BA%E6%95%B8%E6%AF%94%E8%BC%83%E5%9C%96.PNG" width="500">
 
 #### ● 員工班次排程圖
+每位員工的排班情形，如下圖所示，從此圖可看出 ANDERSON、JACKSON 並沒有被安排班次，我們可以從員工每小時薪資表(圖一)發現，這兩位員工的薪資皆是較高的，這是由於若在可以滿足每時段最低員工人數所需的情況下，為了使薪資成本最小化，將會優先排除薪資較高的員工。<br>
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Optimal%20Employee%20Work%20Schedule/%E5%93%A1%E5%B7%A5%E7%8F%AD%E6%AC%A1%E6%8E%92%E7%A8%8B%E5%9C%96.PNG" width="450">
