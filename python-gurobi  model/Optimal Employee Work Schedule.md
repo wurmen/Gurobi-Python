@@ -2,7 +2,7 @@
 # Generating an Optimal Employee Work Schedule Using Integer Linear Programming
 *POLab*
 <br>
-*2017/09/27*
+*2017/10/30*
 <br>
 [【回到首頁】](https://github.com/PO-LAB/Python-Gurobi) <br>
 ##### ※參考資料: https://blogs.mathworks.com/loren/2016/01/06/generating-an-optimal-employee-work-schedule-using-integer-linear-programming/
