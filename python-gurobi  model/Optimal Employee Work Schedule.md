@@ -5,7 +5,7 @@
 *2017/10/30*
 <br>
 [【回到首頁】](https://github.com/PO-LAB/Python-Gurobi) <br>
-##### ※參考資料: https://blogs.mathworks.com/loren/2016/01/06/generating-an-optimal-employee-work-schedule-using-integer-linear-programming/
+##### ※題目來源: https://blogs.mathworks.com/loren/2016/01/06/generating-an-optimal-employee-work-schedule-using-integer-linear-programming/
 
 ## (一) 問題描述
 
