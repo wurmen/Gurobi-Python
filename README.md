@@ -25,7 +25,7 @@
 |2017-10-08|[Python+Gurobi建模](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Python+Gurobi%E5%BB%BA%E6%A8%A1.md)|
 |2017-10-30|[Python+Gurobi特殊資料結構](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Python%2BGurobi%E7%89%B9%E6%AE%8A%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B.ipynb)|
 
-### ￡講義範例
+### ￡範例
 |更新時間|文章|
 |-----|-----|
 |2017-10-08|[Prototype example type1](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Prototype%20example_type1.md)| 
@@ -33,3 +33,5 @@
 |2017-10-08|[Controlling Air Pollution type1](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Controlling%20Air%20Pollution_type1.md)|
 |2017-10-08|[Controlling Air Pollution type2](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Controlling%20Air%20Pollution_type2.md)|
 |2017-10-30|[Dual example](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Dual%20example.md)|
+|2017-10-30|[Optimal Employee Work Schedule](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Optimal%20Employee%20Work%20Schedule.md)|
+
