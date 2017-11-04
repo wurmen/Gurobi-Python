@@ -34,4 +34,5 @@
 |2017-10-08|[Controlling Air Pollution type2](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Controlling%20Air%20Pollution_type2.md)|
 |2017-10-30|[Dual example](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Dual%20example.md)|
 |2017-10-30|[Optimal Employee Work Schedule](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Optimal%20Employee%20Work%20Schedule.md)|
+|2017-11-04|[Netflow problem](https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/Netflow%20problem.md)|
 
