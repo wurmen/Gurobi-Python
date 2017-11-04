@@ -7,7 +7,7 @@
  
  
  
- ##### ※參考資料: https://wenku.baidu.com/view/b34a6a8f680203d8ce2f24b1?pcf=2#8 、[Gurobi-Python Interface](https://www.gurobi.com/documentation/7.0/examples/netflow_py.html)
+ ##### ※參考資料: https://wenku.baidu.com/view/b34a6a8f680203d8ce2f24b1?pcf=2#8 、[Gurobi-Python Interface Example](https://www.gurobi.com/documentation/6.5/examples/netflow_py.html)
   
  ## (一)問題描述
 此為Gurobi內建的範例，在此加以整理介紹。
