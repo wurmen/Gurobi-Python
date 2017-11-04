@@ -48,7 +48,7 @@
  - flow[h,i,j]:商品h從城市i到城市j的運輸總量
  
  ### ● 數學式
- <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-
+ <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Netflow%20problem/netflow%20problem%20model.PNG"  width=750>
 
 
 
