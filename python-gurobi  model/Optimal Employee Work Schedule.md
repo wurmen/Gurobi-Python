@@ -94,6 +94,13 @@ from gurobipy import*
     t=24
 ```
 
+## Update
+
+
+```python
+    m.update()
+```
+
 ## Add decision variables
 
 
