@@ -10,14 +10,14 @@
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%E5%BB%BA%E6%A8%A1/%E6%9C%80%E4%BD%B3%E5%8C%96%E6%B5%81%E7%A8%8B.png" width="650">
 
 ## (二)問題產生
-●有x、y、z三個活動想在同一天舉辦<br>
-●場地總時間只有四個小時可使用<br>
-●活動z的價值為活動x及y的兩倍<br>
-●活動x與活動y至少要選一個舉辦<br>
-●活動x需花費1小時<br>
-●活動y需花費2小時<br>
-●活動z需花費3小時<br>
-●舉辦哪幾個活動可以使價值最大化?<br>
+● 有x、y、z三個活動想在同一天舉辦<br>
+● 場地總時間只有四個小時可使用<br>
+● 活動z的價值為活動x及y的兩倍<br>
+● 活動x與活動y至少要選一個舉辦<br>
+● 活動x需花費1小時<br>
+● 活動y需花費2小時<br>
+● 活動z需花費3小時<br>
+● 舉辦哪幾個活動可以使價值最大化?<br>
 
 ## (三)數學模式
 
@@ -111,6 +111,7 @@ Solution count 2: 3 2
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
 
+```
 ```python
 # 透過屬性varName、x顯示決策變數名字及值
 for v in m.getVars():
@@ -118,6 +119,7 @@ for v in m.getVars():
 # 透過屬性objVal顯示最佳解
 print('Obj: %g' % m.objVal)
 ```
+
 ```
 x 1
 y 0
