@@ -85,16 +85,10 @@ m.addConstr(x + y >= 1, "c1")
 
 
 ## Result
-
+- 如果不想要顯示求解的過程，可在optimize()之前加入此程式碼：**m.setParam('OutputFlag',0)**
 
 ```python
 m.optimize() # m.optimize()求解
-    
-# 透過屬性varName、x顯示決策變數名字及值
-for v in m.getVars():
-    print('%s %g' % (v.varName, v.x))
-# 透過屬性objVal顯示最佳解
-print('Obj: %g' % m.objVal)
 ```
 ```
 Optimize a model with 2 rows, 3 columns and 5 nonzeros
@@ -116,6 +110,15 @@ Solution count 2: 3 2
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
+
+```python
+# 透過屬性varName、x顯示決策變數名字及值
+for v in m.getVars():
+    print('%s %g' % (v.varName, v.x))
+# 透過屬性objVal顯示最佳解
+print('Obj: %g' % m.objVal)
+```
+```
 x 1
 y 0
 z 1
