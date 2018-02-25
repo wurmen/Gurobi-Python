@@ -96,7 +96,7 @@ for v in m.getVars():
 # 透過屬性objVal顯示最佳解
 print('Obj: %g' % m.objVal)
 ```
-
+```
 Optimize a model with 2 rows, 3 columns and 5 nonzeros
 Variable types: 0 continuous, 3 integer (3 binary)
 Coefficient statistics:
@@ -120,4 +120,4 @@ x 1
 y 0
 z 1
 Obj: 3
-    
+```
