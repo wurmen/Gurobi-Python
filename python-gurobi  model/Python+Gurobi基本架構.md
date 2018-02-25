@@ -8,14 +8,14 @@
 
 
 ## (一)Python+Gurobi架構 
-### ● 在python介面中，數學式子的寫法相似於原本的式子，只是將式子都拆解開來
+### ● 在Python介面中，數學式子的寫法相似於原本的式子，只是將式子都拆解開來
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/python%E6%95%B8%E5%AD%B8%E5%BC%8F%E5%AD%90.png" width="550">
 
 ### ● 在建構一個Python+Gurobi的數學規劃時， 通常會依照此順序進行設定變數、目標函數、限制式等
 <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/Python%2Bgurobi%20%E6%9E%B6%E6%A7%8B.png" width="650">
 
 ### ● 建模時常用的for迴圈及if條件句
- Python中宣告for迴圈及if條件式後，記得用**冒號':'** 來結束聲明，接著在下一行打上要對for迴圈或if條件式做的事情，在此要特別注意的是python是透過**縮排**來辨別不同的程式區塊，因此在下一行開始前，要記得按**tab鍵**來做區隔，這樣程式才知道他們是包含在for迴圈跟if條件句之下的程式碼。
+ Python中宣告for迴圈及if條件式後，記得用**冒號':'** 來結束聲明，接著在下一行打上要對for迴圈或if條件式做的事情，在此要特別注意的是Python是透過**縮排**來辨別不同的程式區塊，因此在下一行開始前，要記得按**tab鍵**來做區隔，這樣程式才知道他們是包含在for迴圈跟if條件句之下的程式碼。
 
 <br>-**for迴圈**
 ```python
@@ -28,7 +28,7 @@ if <condition>:
  <do something if condition is true here>
 ```
 
-### ● quicksum()相當於python的sum()函數及數學符號 ∑
+### ● quicksum()相當於Python的sum()函數及數學符號 ∑
 Ex:
 <br> <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/quicksum_example.png" width="200">
 <br>上述限制式在Python+Gurobi中表示為:
@@ -49,7 +49,7 @@ for i in I:
 |%f|格式化浮點數|
 |%e|指數，科學計數法|
 |%g|根據值的大小決定使用%f或%e|
-### ex.
+### e.g.
 ```python
 print('She is %s. She weights %gkg and is %dcm tall.'%('Rima',50.4,166))
 ```
@@ -75,7 +75,7 @@ print('She is %s. She weights %gkg and is %dcm tall.'%('Rima',50.4,166))
 
 ### 2.Gurobi attributes
 在Guroib中，可以透過各種屬性來查詢或更改所建立數學規劃的內容，以下為常用的幾個屬性:
-<br>Ps.更多屬性查詢，可點擊[這裡](https://www.gurobi.com/documentation/7.0/refman/attributes.html)
+<br>P.S. 更多屬性查詢，可點擊[這裡](https://www.gurobi.com/documentation/7.0/refman/attributes.html)
 ### ● Model attributes:
 |Attribute Name|Description|
 |-----|-----|
