@@ -29,7 +29,7 @@ if <condition>:
 ```
 
 ### ● quicksum()相當於Python的sum()函數及數學符號 ∑
-e.g.：
+### e.g.：
 <br> <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/quicksum_example.png" width="200">
 <br>上述限制式在Python+Gurobi中表示為:
 ```python
@@ -49,7 +49,7 @@ for i in I:
 |%f|格式化浮點數|
 |%e|指數，科學計數法|
 |%g|根據值的大小決定使用%f或%e|
-### e.g.
+#### e.g.
 ```python
 print('She is %s. She weights %gkg and is %dcm tall.'%('Rima',50.4,166))
 ```
