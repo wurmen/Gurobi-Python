@@ -34,7 +34,7 @@ if <condition>:
 <br>上述限制式在Python+Gurobi中表示為:
 ```python
 for i in I:
- m.addConstr(quicksum(x[i,j] for j in J)<=5)
+    m.addConstr(quicksum(x[i,j] for j in J)<=5)
 ```
 
 ### ● Python字符串格式化
