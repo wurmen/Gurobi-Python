@@ -29,7 +29,7 @@ if <condition>:
 ```
 
 ### ● quicksum()相當於Python的sum()函數及數學符號 ∑
-### e.g.：
+#### e.g.
 <br> <img src="https://github.com/wurmen/Gurobi-Python/blob/master/python-gurobi%20%20model/picture/quicksum_example.png" width="200">
 <br>上述限制式在Python+Gurobi中表示為:
 ```python
