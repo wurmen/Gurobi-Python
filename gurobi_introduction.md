@@ -1,6 +1,6 @@
 # Gurobi 簡介
 
-[Gurobi](http://www.gurobi.com/index)，又稱Gurobi Optimizer，是一個用來求解數學規劃的優化引擎，堪稱現在市面上最有潛力的數學規劃優化器，主要由[Zonghao **Gu**、Edward  **Ro**thberg、Robert **Bi**xby](http://www.gurobi.com/company/management-team)開發，Gurobi即由三位開發者的名子命名而來。
+[Gurobi](http://www.gurobi.com/index)，又稱Gurobi Optimizer，是一個用來求解數學規劃的優化引擎，堪稱目前市面上最有潛力的數學規劃優化器，主要由[Zonghao **Gu**、Edward  **Ro**thberg、Robert **Bi**xby](http://www.gurobi.com/company/management-team)開發，Gurobi即由三位開發者的名子命名而來。
 ###### ※以下內容相關連結會以:link:表示，可自行點擊查看
 -------
 ### :black_nib: 支持的數學規劃類型 [:link:](http://www.gurobi.com/products/features-benefits)
@@ -15,7 +15,7 @@
 - Quadratically Constrained Programming (QCP)
 - Mixed-Integer Quadratically Constrained Programming (MIQCP)
 
-### :black_nib: 支持的程式語言(programming language)及建模語言(modeling language )[:link:](http://www.gurobi.com/products/features-benefits)
+### :black_nib: 支持的程式語言(programming language)及建模語言(modeling language) [:link:](http://www.gurobi.com/products/features-benefits)
 Gurobi支援許多不同程式語言及建模語言的開發，如以下所示：
 
 :zap: 本repository主要著重於python-gurobi的應用
