@@ -1,4 +1,4 @@
-# Gurobi 簡介
+# Gurobi 簡介 (cont.)
 
 [Gurobi](http://www.gurobi.com/index)，又稱Gurobi Optimizer，是一個用來求解數學規劃的優化引擎，堪稱目前市面上最有潛力的數學規劃優化器，主要由[Zonghao **Gu**、Edward  **Ro**thberg、Robert **Bi**xby](http://www.gurobi.com/company/management-team)開發，Gurobi即由三位開發者的名子命名而來。
 ###### ※以下內容相關連結會以:link:表示，可自行點擊查看
