@@ -15,7 +15,7 @@
 - Quadratically Constrained Programming (QCP)
 - Mixed-Integer Quadratically Constrained Programming (MIQCP)
 
-### :black_nib: 支持的程式語言(programming language)及建模語言(modeling language )
+### :black_nib: 支持的程式語言(programming language)及建模語言(modeling language )[:link:](http://www.gurobi.com/products/features-benefits)
 Gurobi支援許多不同程式語言及建模語言的開發，如以下所示：
 
 :zap: 本repository主要著重於python-gurobi的應用
