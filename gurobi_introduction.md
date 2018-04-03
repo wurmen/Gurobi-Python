@@ -20,14 +20,15 @@
 ### :black_nib: 支持的程式語言(programming language)及建模語言(modeling language) [:link:](http://www.gurobi.com/products/features-benefits)
 Gurobi支援許多不同程式語言及建模語言的開發，如以下所示：
 
-:zap: 本repository主要著重於python-gurobi的應用
-
 :arrow_down_small: 程式語言
 - 物件導向(Object-oriented interfaces)：C++, Java, .NET, and Python
 - 矩陣導向(Matrix-oriented interfaces)：C, MATLAB, and R
 
 :arrow_down_small: 建模語言
 - AMPL, GAMS, AIMMS, and MPL
+
+:zap: 本repository主要著重於python-gurobi的應用
+
 
 ----------
 ### :black_nib: License
